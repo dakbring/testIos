@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ImageList" representedClassName="ImageList" syncable="YES" codeGenerationType="class">
+        <attribute name="imageData" optional="YES" attributeType="Binary"/>
+        <relationship name="ingredients" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="IngredientItem" inverseName="imagelist" inverseEntity="IngredientItem"/>
+        <relationship name="stepsImageList" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="StepItem" inverseName="stepImage" inverseEntity="StepItem"/>
+    </entity>
+    <entity name="IngredientItem" representedClassName="IngredientItem" syncable="YES" codeGenerationType="class">
+        <attribute name="descriptionNote" optional="YES" attributeType="String"/>
+        <attribute name="materialName" optional="YES" attributeType="String"/>
+        <attribute name="quantity" optional="YES" attributeType="String"/>
+        <relationship name="imagelist" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="ImageList" inverseName="ingredients" inverseEntity="ImageList"/>
+        <relationship name="recipeitem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecipeItem" inverseName="ingredients" inverseEntity="RecipeItem"/>
+    </entity>
+    <entity name="RecipeItem" representedClassName="RecipeItem" syncable="YES" codeGenerationType="class">
+        <attribute name="coverImage" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="dateCreated" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="ingredients" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="IngredientItem" inverseName="recipeitem" inverseEntity="IngredientItem"/>
+        <relationship name="stepsRecipe" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="StepItem" inverseName="recipeitem" inverseEntity="StepItem"/>
+    </entity>
+    <entity name="StepItem" representedClassName="StepItem" syncable="YES" codeGenerationType="class">
+        <attribute name="descriptionNote" optional="YES" attributeType="String"/>
+        <attribute name="imageStep" optional="YES" attributeType="Binary"/>
+        <attribute name="stepName" optional="YES" attributeType="String"/>
+        <attribute name="stepOrder" optional="YES" attributeType="String"/>
+        <relationship name="recipeitem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecipeItem" inverseName="stepsRecipe" inverseEntity="RecipeItem"/>
+        <relationship name="stepImage" optional="YES" maxCount="1" deletionRule="Nullify" ordered="YES" destinationEntity="ImageList" inverseName="stepsImageList" inverseEntity="ImageList"/>
+    </entity>
+    <elements>
+        <element name="ImageList" positionX="144" positionY="18" width="128" height="88"/>
+        <element name="IngredientItem" positionX="263.046875" positionY="74.16796875" width="128" height="118"/>
+        <element name="RecipeItem" positionX="75.74609375" positionY="-18" width="128" height="133"/>
+        <element name="StepItem" positionX="-22.2578125" positionY="-86.8046875" width="128" height="133"/>
+    </elements>
+</model>

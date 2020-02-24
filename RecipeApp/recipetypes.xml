@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <dataList>
+    <name>RECIPE1</name>
+    <coverImage>sample_cover.png</coverImage>
+    <dateCreated>1-1-2020</dateCreated>
+    <type>type1</type>
+    <ingredients>
+      <materialName>materialName1</materialName>
+      <quantity>1</quantity>
+      <image>image_material_sample.png</image>
+      <descriptionNote>...</descriptionNote>
+    </ingredients>
+    <ingredients>
+      <materialName>materialName2</materialName>
+      <quantity>1</quantity>
+      <image>image_material_sample.png</image>
+      <descriptionNote>...</descriptionNote>
+    </ingredients>
+    <ingredients>
+      <materialName>materialName3</materialName>
+      <quantity>1</quantity>
+      <image>image_material_sample.png</image>
+      <descriptionNote>...</descriptionNote>
+    </ingredients>
+    <ingredients>
+      <materialName>materialName4</materialName>
+      <quantity>1</quantity>
+      <image>image_material_sample.png</image>
+      <descriptionNote>...</descriptionNote>
+    </ingredients>
+    <steps>
+      <stepOrder>1</stepOrder>
+      <stepName>StepName</stepName>
+      <descriptionNote>Do like this, like this!</descriptionNote>
+    </steps>
+    <steps>
+      <stepOrder>2</stepOrder>
+      <stepName>StepName</stepName>
+      <descriptionNote>Do like this, like this!</descriptionNote>
+    </steps>
+    <steps>
+      <stepOrder>4</stepOrder>
+      <stepName>StepName</stepName>
+      <descriptionNote>Do like this, like this!</descriptionNote>
+    </steps>
+  </dataList>
+  <dataList>
+    <name>RECIPE2</name>
+    <coverImage>sample_cover.png</coverImage>
+    <type>type3</type>
+    <dateCreated>1-1-2020</dateCreated>
+    <ingredients>
+      <materialName>materialName1</materialName>
+      <quantity>1</quantity>
+      <image>image_material_sample.png</image>
+      <descriptionNote>...</descriptionNote>
+    </ingredients>
+    <ingredients>
+      <materialName>materialName2</materialName>
+      <quantity>1</quantity>
+      <image>image_material_sample.png</image>
+      <descriptionNote>...</descriptionNote>
+    </ingredients>
+    <steps>
+      <stepOrder>1</stepOrder>
+      <stepName>StepName</stepName>
+      <descriptionNote>Do like this, like this!</descriptionNote>
+    </steps>
+    <steps>
+      <stepOrder>2</stepOrder>
+      <stepName>StepName</stepName>
+      <descriptionNote>Do like this, like this!</descriptionNote>
+    </steps>
+    <steps>
+      <stepOrder>3</stepOrder>
+      <stepName>StepName</stepName>
+      <descriptionNote>Do like this, like this!</descriptionNote>
+    </steps>
+    <steps>
+      <stepOrder>4</stepOrder>
+      <stepName>StepName</stepName>
+      <descriptionNote>Do like this, like this!</descriptionNote>
+    </steps>
+  </dataList>
+  <dataList>
+    <name>RECIPE3</name>
+    <coverImage>sample_cover.png</coverImage>
+    <dateCreated>1-1-2020</dateCreated>
+    <type>type2</type>
+    <ingredients>
+      <materialName>materialName1</materialName>
+      <quantity>1</quantity>
+      <image>image_material_sample.png</image>
+      <descriptionNote>...</descriptionNote>
+    </ingredients>
+    <ingredients>
+      <materialName>materialName2</materialName>
+      <quantity>1</quantity>
+      <image>image_material_sample.png</image>
+      <descriptionNote>...</descriptionNote>
+    </ingredients>
+    <ingredients>
+      <materialName>materialName4</materialName>
+      <quantity>1</quantity>
+      <image>image_material_sample.png</image>
+      <descriptionNote>...</descriptionNote>
+    </ingredients>
+    <steps>
+      <stepOrder>1</stepOrder>
+      <stepName>StepName</stepName>
+      <descriptionNote>Do like this, like this!</descriptionNote>
+    </steps>
+    <steps>
+      <stepOrder>2</stepOrder>
+      <stepName>StepName</stepName>
+      <descriptionNote>Do like this, like this!</descriptionNote>
+    </steps>
+    <steps>
+      <stepOrder>3</stepOrder>
+      <stepName>StepName</stepName>
+      <descriptionNote>Do like this, like this!</descriptionNote>
+    </steps>
+    <steps>
+      <stepOrder>4</stepOrder>
+      <stepName>StepName</stepName>
+      <descriptionNote>Do like this, like this!</descriptionNote>
+    </steps>
+  </dataList>
+</root>

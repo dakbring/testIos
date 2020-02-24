@@ -1,0 +1,143 @@
+{
+    "dataList": [
+        {
+            "name": "RECIPE1",
+            "coverImage": "sample_cover.png",
+            "dateCreated": "1-1-2020",
+            "type": "type1",
+            "ingredients": [
+                {
+                    "materialName": "materialName1",
+                    "quantity": "1",
+                    "image": "image_material_sample.png",
+                    "descriptionNote": "..."
+                },
+                {
+                    "materialName": "materialName2",
+                    "quantity": "1",
+                    "image": "image_material_sample.png",
+                    "descriptionNote": "..."
+                },
+                {
+                    "materialName": "materialName3",
+                    "quantity": "1",
+                    "image": "image_material_sample.png",
+                    "descriptionNote": "..."
+                },
+                {
+                    "materialName": "materialName4",
+                    "quantity": "1",
+                    "image": "image_material_sample.png",
+                    "descriptionNote": "..."
+                }
+            ],
+            "steps": [
+                {
+                    "stepOrder": "1",
+                    "stepName": "StepName",
+                    "descriptionNote": "Do like this, like this!"
+                },
+                {
+                    "stepOrder": "2",
+                    "stepName": "StepName",
+                    "descriptionNote": "Do like this, like this!"
+                },
+                {
+                    "stepOrder": "4",
+                    "stepName": "StepName",
+                    "descriptionNote": "Do like this, like this!"
+                }
+            ]
+        },
+        {
+            "name": "RECIPE2",
+            "coverImage": "sample_cover.png",
+            "type": "type3",
+            "dateCreated": "1-1-2020",
+            "ingredients": [
+                {
+                    "materialName": "materialName1",
+                    "quantity": "1",
+                    "image": "image_material_sample.png",
+                    "descriptionNote": "..."
+                },
+                {
+                    "materialName": "materialName2",
+                    "quantity": "1",
+                    "image": "image_material_sample.png",
+                    "descriptionNote": "..."
+                }
+            ],
+            "steps": [
+                {
+                    "stepOrder": "1",
+                    "stepName": "StepName",
+                    "descriptionNote": "Do like this, like this!"
+                },
+                {
+                    "stepOrder": "2",
+                    "stepName": "StepName",
+                    "descriptionNote": "Do like this, like this!"
+                },
+                {
+                    "stepOrder": "3",
+                    "stepName": "StepName",
+                    "descriptionNote": "Do like this, like this!"
+                },
+                {
+                    "stepOrder": "4",
+                    "stepName": "StepName",
+                    "descriptionNote": "Do like this, like this!"
+                }
+            ]
+        },
+        {
+            "name": "RECIPE3",
+            "coverImage": "sample_cover.png",
+            "dateCreated": "1-1-2020",
+            "type": "type2",
+            "ingredients": [
+                {
+                    "materialName": "materialName1",
+                    "quantity": "1",
+                    "image": "image_material_sample.png",
+                    "descriptionNote": "..."
+                },
+                {
+                    "materialName": "materialName2",
+                    "quantity": "1",
+                    "image": "image_material_sample.png",
+                    "descriptionNote": "..."
+                },
+                {
+                    "materialName": "materialName4",
+                    "quantity": "1",
+                    "image": "image_material_sample.png",
+                    "descriptionNote": "..."
+                }
+            ],
+            "steps": [
+                {
+                    "stepOrder": "1",
+                    "stepName": "StepName",
+                    "descriptionNote": "Do like this, like this!"
+                },
+                {
+                    "stepOrder": "2",
+                    "stepName": "StepName",
+                    "descriptionNote": "Do like this, like this!"
+                },
+                {
+                    "stepOrder": "3",
+                    "stepName": "StepName",
+                    "descriptionNote": "Do like this, like this!"
+                },
+                {
+                    "stepOrder": "4",
+                    "stepName": "StepName",
+                    "descriptionNote": "Do like this, like this!"
+                }
+            ]
+        }
+    ]
+}
